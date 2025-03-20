@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}欢迎{% endblock %}
+
+{% block content %}
+<div class="auth-form">
+    <h1>欢迎来到用户系统</h1>
+    <p>请 <a href="{{ url_for('login') }}">登录</a> 或 <a href="{{ url_for('register') }}">注册</a>。</p>
+</div>
+{% endblock %}
