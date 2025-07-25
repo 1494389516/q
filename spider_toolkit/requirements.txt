@@ -1,0 +1,30 @@
+# 爬虫百宝箱依赖包
+
+# 核心依赖
+aiohttp>=3.8.0
+beautifulsoup4>=4.10.0
+requests>=2.25.0
+lxml>=4.6.0
+PyYAML>=5.4.0
+Pillow>=8.0.0
+aiofiles>=0.7.0
+
+# 可选依赖 - 验证码处理
+pytesseract>=0.3.8
+twocaptcha-python>=1.0.0
+
+# 可选依赖 - 数据处理
+pandas>=1.3.0
+numpy>=1.21.0
+
+# 可选依赖 - 浏览器自动化
+selenium>=4.0.0
+playwright>=1.20.0
+
+# 开发依赖
+pytest>=6.0.0
+pytest-asyncio>=0.15.0
+pytest-cov>=2.12.0
+black>=21.0.0
+flake8>=3.8.0
+mypy>=0.910
